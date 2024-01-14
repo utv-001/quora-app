@@ -1,0 +1,14 @@
+.login-container{
+    background-image: url('../../assets/bgimg.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-page{
+    display: flex;
+    flex-flow: column;
+    gap: 50%;
+    background-color: white;
+    padding: 2% 7%;
+}

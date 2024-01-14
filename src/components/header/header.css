@@ -1,0 +1,50 @@
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    border-top: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+.image{
+    max-height: 40px;
+}
+.search-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20px;
+    border: 1px solid black;
+    padding: 3px;
+}
+.icons-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#search-quora{
+    border: none;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+.icons:hover{
+    cursor: pointer;
+}
+#try-quora{
+    border: 1px solid grey;
+    color: grey;
+    font-weight: bold;
+    border-radius: 20px;
+    text-transform: none;
+}
+#add-question{
+    background-color: #b92b27;
+    text-transform: none;
+    font-weight: bold;
+    border-radius: 20px;
+}

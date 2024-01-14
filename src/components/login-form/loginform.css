@@ -1,0 +1,19 @@
+.form-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+.field-wrapper{
+    display: flex;
+    flex-flow: column;
+}
+.field-bottom{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+}

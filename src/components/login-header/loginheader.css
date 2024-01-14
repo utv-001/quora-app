@@ -1,0 +1,16 @@
+.loginHeader-continer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.logo{
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.loginHeader-continer p{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    color: rgb(120, 120, 120);
+}
